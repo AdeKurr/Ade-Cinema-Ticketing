@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ade\'s Cinema</string>
+    <string name="create_order">Create Order</string>
+    <string name="create_order_title">Create Order</string>
+    <string name="action_share">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_top">Top fragment</string>
+    <string-array name="horror">
+        <item>Evil Dead</item>
+        <item>Paranormal Activity</item>
+        <item>A Quiet Place</item>
+    </string-array>
+    <string-array name="adventure">
+        <item>The Lord of the Rings: The Fellowship of the Ring</item>
+        <item>The Lord of the Rings: The Two Towers</item>
+        <item>The Lord of the Rings: The Return of the King</item>
+    </string-array>
+    <string-array name="sci_fi">
+        <item>Interstellar</item>
+        <item>Ready Player One</item>
+        <item>The Martian</item>
+    </string-array>
+    <string name="home_tab">Home</string>
+    <string name="horror_tab">Horror</string>
+    <string name="adventure_tab">Adventure</string>
+    <string name="sci_fi_tab">Sci-Fi</string>
+    <string name="order_name_hint">Masukkan judul film</string>
+    <string name="order_details_hint">Masukkan tanggal pemesanan</string>
+</resources>
