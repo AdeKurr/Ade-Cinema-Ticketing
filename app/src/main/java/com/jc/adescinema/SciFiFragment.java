@@ -1,5 +1,6 @@
 package com.jc.adescinema;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
@@ -29,6 +30,15 @@ public class SciFiFragment extends Fragment {
         pizzaRecycler.setAdapter(adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(), 2);
         pizzaRecycler.setLayoutManager(layoutManager);
+        //nyambungin listener
+        adapter.setListener(new CaptionedImagesAdapter.Listener() {
+            @Override
+            public void onClick(int position) {
+                Intent intent = new Intent(getActivity(), SciFiDetailActivity.class);
+                intent.putExtra(SciFiDetailActivity.EXTRA_CINEMA_ID, position);
+                getActivity().startActivity(intent);
+            }
+        });
         return pizzaRecycler;
     }
 }

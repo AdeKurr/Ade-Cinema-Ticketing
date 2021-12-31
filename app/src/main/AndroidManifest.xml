@@ -10,13 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".OrderActivity"
-            android:label="@string/create_order"
+            android:name=".AllMoviesDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SciFiDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdventureDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HorrorDetailActivity"
             android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderActivity"
+            android:exported="true"
+            android:label="@string/create_order"
             android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".SplashScreenActivity"
@@ -29,7 +42,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

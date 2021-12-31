@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_adventure_detail.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_all_movies_detail.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_cinema_detail.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_horror_detail.xml" value="0.25" />
         <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_order.xml" value="0.22" />
+        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_sci_fi_detail.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/activity_splash_screen.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/card_captioned_image.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/AdesCinema/app/src/main/res/layout/fragment_adventure.xml" value="0.1" />
