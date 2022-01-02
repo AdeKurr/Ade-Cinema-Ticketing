@@ -1,5 +1,7 @@
 package com.jc.adescinema;
 
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
@@ -14,6 +16,8 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
     private String[] captions;
     private int[] imageIds;
     private Listener listener;
+    private SQLiteDatabase db;
+    private Cursor cursor;
 
     interface Listener {
         void onClick(int position);

@@ -71,25 +71,5 @@ public class AllMoviesDetailActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG);
             toast.show();
         }
-
-//        //nama pelm
-//        String cinemaName = Data.allmovies[cinemaId].getName();
-//        TextView cinemaName = (TextView) findViewById(R.id.cinema_text);
-//        cinemaName.setText(cinemaName);
-//        //poster pelm
-//        int cinemaImage = Data.allmovies[cinemaId].getImageResourceId();
-//        ImageView imageView = (ImageView) findViewById(R.id.cinema_image);
-//        imageView.setImageDrawable(ContextCompat.getDrawable(this, cinemaImage));
-//        imageView.setContentDescription(cinemaName);
-//        //pemainnye
-//        String cinemaCasts = Data.allmovies[cinemaId].getCasts();
-//        TextView textView1 = (TextView) findViewById(R.id.casts);
-//        textView1.setText(cinemaCasts);
-//        //synopsis
-//        String cinemaSynopsis = Data.allmovies[cinemaId].getSynopsis();
-//        TextView textView2 = (TextView) findViewById(R.id.synopsis);
-//        textView2.setText(cinemaSynopsis);
-//
-
     }
 }
